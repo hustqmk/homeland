@@ -95,7 +95,7 @@ gem "rails-settings-cached"
 gem "auto-space"
 gem "html-pipeline"
 gem "html-pipeline-rouge_filter"
-gem "redcarpet"
+gem "redcarpet", "~> 2.2.1"
 
 # 队列
 gem "sidekiq"

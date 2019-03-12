@@ -1,5 +1,5 @@
 defaults: &defaults
-  url: <%= ENV["REDIS_URL"] || "redis://localhost:6379/1" %>
+  url: <%= ENV["REDIS_URL"] || "redis://localhost:3000/1" %>
 
 development:
   <<: *defaults
